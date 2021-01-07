@@ -1,5 +1,5 @@
 /*
- * Copyright 2011-2019 Branimir Karadzic. All rights reserved.
+ * Copyright 2011-2020 Branimir Karadzic. All rights reserved.
  * License: https://github.com/bkaradzic/bimg#license-bsd-2-clause
  */
 
@@ -17,6 +17,10 @@ namespace bimg
 			Default,
 			Highest,
 			Fastest,
+
+			NormalMapDefault,  // Treat the source as a normal map
+			NormalMapHighest,
+			NormalMapFastest,
 
 			Count
 		};
